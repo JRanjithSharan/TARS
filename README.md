@@ -73,7 +73,7 @@ Each packet includes:
 
 ## 🔌 Hardware Summary
 
-| Component                     | Description                            |
+| Component                    | Description                            |
 |------------------------------|----------------------------------------|
 | ESP32 (x2)                   | Controls both transmitter and receiver |
 | NEMA 17 Stepper Motors (x2)  | For Azimuth and Elevation rotation     |
@@ -100,15 +100,22 @@ Each packet includes:
 
 ### 🔧 Final CAD Model
 
-![CAD Model](media/CAD_model.jpg)
+![CAD Model](media/CAD_model.jpg) | ![](media/CAD_model-2.jpg)
 
 ---
 
-### 🧩 TARS Assembly Process
+### 🧩 TARS Early Assembly Process
 
-| Final View | Stage 1 | Stage 2 | Stage 3 |
-|------------|---------|---------|---------|
-| ![Final](media/TARS_Final.jpg) | ![A1](media/TARS_Assembly-1.jpg) | ![A2](media/TARS_Assembly-2.jpg) | ![A3](media/TARS_Assembly-3.jpg) |
+| Stage 1 | Stage 2 | Stage 3 |
+|---------|---------|---------|
+| ![A1](media/TARS_Assembly-1.jpg) | ![A2](media/TARS_Assembly-2.jpg) | ![A3](media/TARS_Assembly-3.jpg) |
+
+
+---
+
+### 🧷 TARS Final
+
+![TARS Final View](media/TARS_Final.jpg)
 
 ---
 
