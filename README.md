@@ -21,11 +21,13 @@ To create a ground-based antenna tracking system that accurately orients a direc
 
 ## 🛠️ System Architecture
 
-### Transmitter (Rocket Payload)
+### Transmitter (Rocket Avionics)
+- **ESP32**: Brain of the SRAD GPS transmitter
 - **GPS Module**: Position (lat, lon, alt), velocity, satellite count.
 - **IMU (MPU9250)**: Orientation (roll, pitch, yaw), acceleration, gyro.
 - **Magnetometer (HMC5883L)**: Compass heading.
-- **LoRa + ESP-NOW**: Sends telemetry packets.
+- **LoRa**: Sends telemetry packets.
+
 
 ### Receiver (Ground Station)
 - **ESP32 Controller**: Core logic + decision-making.
@@ -56,5 +58,28 @@ Includes:
 
 ---
 
-## 📁 Project Structure (Proposed)
+## 🔌 Hardware Used
+
+| Component         | Description                     |
+|-------------------|---------------------------------|
+| ESP32             | Central microcontroller         |
+| NEMA 17 Motors    | Azimuth and Elevation control   |
+| TB6600 Drivers    | Stepper motor drivers           |
+| Batteries & holder| For powering the system         |
+| microSD Module    | Logging telemetry               |
+| LoRa SX1278       | Long-range communication        |
+| 3D-Printed Mount  | Custom mechanical design        |
+
+---
+
+## 🖥️ Software Tools
+
+- Arduino IDE
+- Python (for data logging and testing)
+- Fusion 360 / SolidWorks (for mechanical design)
+  
+---
+
+## 📸 Demo
+
 
