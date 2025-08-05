@@ -100,7 +100,7 @@ Each packet includes:
 
 ### 🔧 Final CAD Model
 
-![CAD Model](media/CAD_model.jpg) | ![](media/CAD_model-2.jpg)
+![A1][CAD Model](media/CAD_model.jpg) | ![A2](media/CAD_model-2.jpg)
 
 ---
 
