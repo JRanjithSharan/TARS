@@ -81,5 +81,23 @@ Includes:
 ---
 
 ## 📸 Demo
+### TARS Antenna Assembly
 
+![TARS Final View](media/TARS_Final.jpg)
+
+| Assembly Stages |
+|-----------------|
+| ![Assembly 1](media/TARS_Assembly-1.jpg) |
+| ![Assembly 2](media/TARS_Assembly-2.jpg) |
+| ![Assembly 3](media/TARS_Assembly-3.jpg) |
+
+---
+## 📹 Test Video
+
+[📹 TARS initial Test](media/TARS_testing_video.mp4)
+### CAD Model
+
+---
+
+![CAD Model](media/CAD_model.jpg)
 
