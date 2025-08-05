@@ -1,6 +1,6 @@
 # TARS – Tracking Antenna Reception System
 
-TARS (Tracking Antenna Reception System) is a low-cost, modular, GPS-based ground station designed to track high-powered rockets and UAVs in real-time using directional antennas. Developed with ESP32 and stepper motor control, TARS calculates azimuth and elevation angles based on live GPS telemetry from the rocket and rotates the antenna accordingly.
+TARS (Tracking Antenna Reception System) is a low-cost, modular, GPS-based **Antenna Tracking System** designed to track high-powered rockets and UAVs in real-time using directional antennas. Developed with ESP32 and stepper motor control, TARS calculates azimuth and elevation angles based on live GPS telemetry from the rocket and rotates the antenna accordingly.
 
 ---
 
