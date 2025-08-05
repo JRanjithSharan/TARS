@@ -98,9 +98,12 @@ Each packet includes:
 
 ## 📸 Visuals
 
-### 🔧 Final CAD Model
+### 🔧 CAD Model
 
-![A1][CAD Model](media/CAD_model.jpg) | ![A2](media/CAD_model-2.jpg)
+<p float="left">
+  <img src="media/CAD_model.jpg" alt="CAD Model 1" width="45%" />
+  <img src="media/CAD_model-2.jpg" alt="CAD Model 2" width="45%" />
+</p>
 
 ---
 
@@ -140,8 +143,8 @@ Licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
 
 Developed by **Ranjith Sharan J**  
 Electronics & Instrumentation Engineering, VIT Vellore  
-Team Sammard  
-📧 Email: [jranjithsharan@gmail.com]
+Senior Avionics Member, Team Sammard  
+📧 Email: jranjithsharan@gmail.com
 
 ---
 
