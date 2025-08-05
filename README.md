@@ -100,10 +100,9 @@ Each packet includes:
 
 ### 🔧 CAD Model
 
-<p float="left">
-  <img src="media/CAD_model.jpg" alt="CAD Model 1" width="45%" />
-  <img src="media/CAD_model-2.jpg" alt="CAD Model 2" width="45%" />
-</p>
+|  |  |
+|---------|---------|
+| ![A1](media/CAD_model.jpg) | ![A2](media/CAD_model-2.jpg) |
 
 ---
 
