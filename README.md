@@ -35,7 +35,7 @@ To create a ground-based system that autonomously orients a directional antenna 
 
 ---
 
-### 🏗️ Ground Station (Receiver & Tracker)
+###  Ground Station (Receiver & Tracker)
 - **ESP32**: Receives and parses telemetry packets; calculates pointing angles.
 - **LoRa SX1278**: Receives telemetry from the rocket.
 - **Yagi-Uda Antenna (3D Printed)**: Directional reception, connected via RF amplifier.
