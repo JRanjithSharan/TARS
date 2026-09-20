@@ -31,13 +31,13 @@ To create a ground-based system that autonomously orients a directional antenna 
 - **GPS Module**: Outputs live latitude, longitude, altitude, speed, and time.
 - **MPU9250 IMU**: Provides roll, pitch, and yaw angles with acceleration and gyro data.
 - **HMC5883L Magnetometer**: Provides compass heading.
-- **LoRa SX1278 Module**: Sends telemetry data to ground station.
+- **LoRa SX1276 Module**: Sends telemetry data to ground station.
 
 ---
 
 ###  Ground Station (Receiver & Tracker)
 - **ESP32**: Receives and parses telemetry packets; calculates pointing angles.
-- **LoRa SX1278**: Receives telemetry from the rocket.
+- **LoRa SX1276**: Receives telemetry from the rocket.
 - **Yagi-Uda Antenna (3D Printed)**: Directional reception, connected via RF amplifier.
 - **0.1–2000 MHz RF Wideband LNA Module (Gain: 30 dB)**: Amplifies received signals.
 - **Two NEMA 17 Stepper Motors**: Drive azimuth and elevation axes.
@@ -78,7 +78,7 @@ Each packet includes:
 | ESP32 (x2)                   | Controls both transmitter and receiver |
 | NEMA 17 Stepper Motors (x2)  | For Azimuth and Elevation rotation     |
 | TB6600 Stepper Drivers (x2)  | Motor control via ESP32                |
-| LoRa SX1278 Modules (x2)     | Long-range wireless communication      |
+| LoRa SX1276 Modules (x2)     | Long-range wireless communication      |
 | microSD Module               | Data logging on ground                 |
 | 14.8V 4000mAh Li-ion Battery | Powers motors and driver circuitry     |
 | 3.7V Li-ion Battery          | Powers prototype board and ESP32       |
